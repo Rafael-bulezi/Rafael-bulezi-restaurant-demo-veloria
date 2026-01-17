@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Star, Phone } from 'lucide-react';
-import { getDishes } from '../data';
+import { getDishes } from './data.ts';
 
 interface FullMenuProps {
   onReserve: () => void;
