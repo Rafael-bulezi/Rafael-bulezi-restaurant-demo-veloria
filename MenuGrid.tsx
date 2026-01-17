@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Star, ArrowRight, Trophy, Medal, Info } from 'lucide-react';
-import { getDishes } from '../data';
+import { getDishes } from './data.ts';
 
 interface MenuGridProps {
   onViewFullMenu: () => void;
