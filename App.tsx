@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
-import Navbar from './Navbar.tsx';
+import { Navbar } from './Navbar.tsx';
 import Hero from './Hero.tsx';
 import About from './About.tsx';
 import MenuGrid from './MenuGrid.tsx';
