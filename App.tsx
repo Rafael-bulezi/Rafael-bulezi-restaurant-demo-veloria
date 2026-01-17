@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
 import { Navbar } from './Navbar.tsx';
-import Hero from './Hero.tsx';
-import About from './About.tsx';
-import MenuGrid from './MenuGrid.tsx';
-import MapSection from './MapSection.tsx';
-import Footer from './Footer.tsx';
-import ReservationModal from './ReservationModal.tsx';
-import FullMenu from './FullMenu.tsx';
-import SocialProof from './SocialProof.tsx';
-import TripAdvisorReviews from './TripAdvisorReviews.tsx';
-import WhyChooseUs from './WhyChooseUs.tsx';
+import { Hero } from './Hero.tsx';
+import { About } from './About.tsx';
+import { MenuGrid } from './MenuGrid.tsx';
+import { MapSection } from './MapSection.tsx';
+import { Footer } from './Footer.tsx';
+import { ReservationModal } from './ReservationModal.tsx';
+import { FullMenu } from './FullMenu.tsx';
+import { SocialProof } from './SocialProof.tsx';
+import { TripAdvisorReviews } from './TripAdvisorReviews.tsx';
+import { WhyChooseUs } from './WhyChooseUs.tsx';
 
 const App: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
