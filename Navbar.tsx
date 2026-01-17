@@ -112,3 +112,5 @@ export const Navbar: React.FC<NavbarProps> = ({ isScrolled, language, setLanguag
     </header>
   );
 };
+
+export default Navbar;
