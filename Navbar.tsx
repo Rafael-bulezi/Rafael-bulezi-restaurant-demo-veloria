@@ -41,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isScrolled, language, setLanguag
         {/* Logo */}
         <div className="flex-1 flex items-center gap-2">
           <button onClick={(e) => handleNavClick('home', e)} className="flex items-center gap-2">
-            <Anchor className={`w-7 h-7 ${isScrolled ? 'text-naval-600' : 'text-white'}`} />
+            {/* <Anchor className={`w-7 h-7 ${isScrolled ? 'text-naval-600' : 'text-white'}`} />  */}
             <span className={`text-3xl font-serif font-bold tracking-widest ${textColor}`}>
               VELORIA
             </span>
