@@ -12,7 +12,7 @@ const HERO_IMAGES = {
   menu: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1920&auto=format&fit=crop",
   ocean: "https://images.unsplash.com/photo-1596525166299-136458561d5f?q=80&w=1920&auto=format&fit=crop",
   // REMOVED &fit=crop from the heritage URL to prevent server-side clipping
-  heritage: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770897582/Whisk_kznwmty5mmn4y2ym1sojnwotgzm4qtl0emzw0sm_yylxhw.png?q=80&w=1920&auto=format"
+  heritage: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770903660/Whisk_36bf8b54238b15596124e61cc7fde935dr_xjey9v.png?q=80&w=1920&auto=format"
 };
 
 export const Hero: React.FC<HeroProps> = ({ onReserve, language }) => {
