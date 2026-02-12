@@ -18,7 +18,7 @@ const dishesEn: Dish[] = [
     price: 48000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1599321955726-9048b5b930dc?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935460/polvo_n554oi.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const dishesEn: Dish[] = [
     price: 4500,
     rating: 4,
     category: "Starter",
-    image: "https://images.unsplash.com/photo-1576615278693-f7e0b1e45797?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935459/couvert_veloria_vuxuwk.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const dishesEn: Dish[] = [
     price: 24000,
     rating: 5,
     category: "Starter",
-    image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935437/amejoas_%C3%A0_bulh%C3%A3o_a_pato_qjz9wj.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ const dishesEn: Dish[] = [
     price: 18000,
     rating: 5,
     category: "Starter",
-    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935460/oystra_de_namibe_xubeqf.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 9,
@@ -112,7 +112,7 @@ const dishesEn: Dish[] = [
     price: 45000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1580476262798-bddd9dd90d3e?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935463/garoupa_grehaldo_nv9r91.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 13,
@@ -121,7 +121,7 @@ const dishesEn: Dish[] = [
     price: 55000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1615141982880-1313d41813f1?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935460/robalo_ao_sal_h9ji3g.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 14,
@@ -157,7 +157,7 @@ const dishesEn: Dish[] = [
     price: 38000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd43ea?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935458/bacalhau_a_nata_axnesa.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 18,
@@ -166,7 +166,7 @@ const dishesEn: Dish[] = [
     price: 70000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935434/Whisk_6511ec90677256abcb9435a8733aa612dr_sktvnn.png?q=80&w=800&auto=format&fit=crop"
   },
 
   // --- Mains (Meat) ---
@@ -186,7 +186,7 @@ const dishesEn: Dish[] = [
     price: 36000,
     rating: 4,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1558030006-d35974212719?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935453/bife_de_vazia_grehaldo_ttqdfi.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 21,
@@ -195,7 +195,7 @@ const dishesEn: Dish[] = [
     price: 34000,
     rating: 4,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935437/picanha_fatiada_bwrtsq.png?q=80&w=800&auto=format&fit=crop"
   },
 
   // --- Desserts ---
@@ -215,7 +215,7 @@ const dishesEn: Dish[] = [
     price: 10000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935439/moussa_de_choclate_zjktrw.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 24,
@@ -224,7 +224,7 @@ const dishesEn: Dish[] = [
     price: 12000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1517325240228-566b6c703b6d?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935451/moussa_de_maracuja_i0toaq.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 25,
@@ -233,7 +233,7 @@ const dishesEn: Dish[] = [
     price: 11000,
     rating: 4,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935447/serradura_zyr5ht.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 26,
@@ -242,7 +242,7 @@ const dishesEn: Dish[] = [
     price: 12000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935453/cr%C3%A8me_br%C3%BBl%C3%A9e_dih5of.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 27,
@@ -251,7 +251,7 @@ const dishesEn: Dish[] = [
     price: 14000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935438/petit_gateu_fjsvmy.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 28,
@@ -271,7 +271,7 @@ const dishesEn: Dish[] = [
     price: 5000,
     rating: 5,
     category: "Cocktail",
-    image: "https://images.unsplash.com/photo-1563223771-334a6136e4f1?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935438/caipirinha_ixaoqv.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 30,
@@ -280,7 +280,7 @@ const dishesEn: Dish[] = [
     price: 18000,
     rating: 5,
     category: "Cocktail",
-    image: "https://images.unsplash.com/photo-1606253457187-573133333333?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935449/sangria_wine_zycqvc.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 31,
@@ -311,7 +311,7 @@ const dishesPt: Dish[] = [
     price: 48000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1599321955726-9048b5b930dc?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935460/polvo_n554oi.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -331,7 +331,7 @@ const dishesPt: Dish[] = [
     price: 4500,
     rating: 4,
     category: "Starter",
-    image: "https://images.unsplash.com/photo-1576615278693-f7e0b1e45797?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935459/couvert_veloria_vuxuwk.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 5,
@@ -349,7 +349,7 @@ const dishesPt: Dish[] = [
     price: 24000,
     rating: 5,
     category: "Starter",
-    image: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935437/amejoas_%C3%A0_bulh%C3%A3o_a_pato_qjz9wj.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 7,
@@ -367,7 +367,7 @@ const dishesPt: Dish[] = [
     price: 18000,
     rating: 5,
     category: "Starter",
-    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935460/oystra_de_namibe_xubeqf.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 9,
@@ -405,7 +405,7 @@ const dishesPt: Dish[] = [
     price: 45000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1580476262798-bddd9dd90d3e?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935463/garoupa_grehaldo_nv9r91.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 13,
@@ -414,7 +414,7 @@ const dishesPt: Dish[] = [
     price: 55000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1615141982880-1313d41813f1?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935460/robalo_ao_sal_h9ji3g.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 14,
@@ -450,7 +450,7 @@ const dishesPt: Dish[] = [
     price: 38000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1579584425555-c3ce17fd43ea?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935458/bacalhau_a_nata_axnesa.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 18,
@@ -459,7 +459,7 @@ const dishesPt: Dish[] = [
     price: 70000,
     rating: 5,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935434/Whisk_6511ec90677256abcb9435a8733aa612dr_sktvnn.png?q=80&w=800&auto=format&fit=crop"
   },
 
   // --- Mains (Meat) ---
@@ -479,7 +479,7 @@ const dishesPt: Dish[] = [
     price: 36000,
     rating: 4,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1558030006-d35974212719?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935453/bife_de_vazia_grehaldo_ttqdfi.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 21,
@@ -488,7 +488,7 @@ const dishesPt: Dish[] = [
     price: 34000,
     rating: 4,
     category: "Main",
-    image: "https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935437/picanha_fatiada_bwrtsq.png?q=80&w=800&auto=format&fit=crop"
   },
 
   // --- Desserts ---
@@ -508,7 +508,7 @@ const dishesPt: Dish[] = [
     price: 10000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935439/moussa_de_choclate_zjktrw.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 24,
@@ -517,7 +517,7 @@ const dishesPt: Dish[] = [
     price: 12000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1517325240228-566b6c703b6d?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935451/moussa_de_maracuja_i0toaq.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 25,
@@ -526,7 +526,7 @@ const dishesPt: Dish[] = [
     price: 11000,
     rating: 4,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935447/serradura_zyr5ht.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 26,
@@ -535,7 +535,7 @@ const dishesPt: Dish[] = [
     price: 12000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935453/cr%C3%A8me_br%C3%BBl%C3%A9e_dih5of.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 27,
@@ -544,7 +544,7 @@ const dishesPt: Dish[] = [
     price: 14000,
     rating: 5,
     category: "Dessert",
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935438/petit_gateu_fjsvmy.png?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 28,
@@ -564,7 +564,7 @@ const dishesPt: Dish[] = [
     price: 5000,
     rating: 5,
     category: "Cocktail",
-    image: "https://images.unsplash.com/photo-1563223771-334a6136e4f1?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935438/caipirinha_ixaoqv.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 30,
@@ -573,7 +573,7 @@ const dishesPt: Dish[] = [
     price: 18000,
     rating: 5,
     category: "Cocktail",
-    image: "https://images.unsplash.com/photo-1606253457187-573133333333?q=80&w=800&auto=format&fit=crop"
+    image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770935449/sangria_wine_zycqvc.jpg?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 31,
