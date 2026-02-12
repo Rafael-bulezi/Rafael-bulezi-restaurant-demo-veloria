@@ -10,7 +10,7 @@ const HERO_IMAGES = {
   default: "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=1920&auto=format&fit=crop",
   fineDining: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1920&auto=format&fit=crop",
   menu: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1920&auto=format&fit=crop",
-  ocean: "https://images.unsplash.com/photo-1596525166299-136458561d5f?q=80&w=1920&auto=format&fit=crop",
+  ocean: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770907597/Whisk_6d9ec7b4e0ce959ab1f4f992fb4631dddr_rdpogv.jpg?q=80&w=1920&auto=format&fit=crop",
   // REMOVED &fit=crop from the heritage URL to prevent server-side clipping
   heritage: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770903660/Whisk_36bf8b54238b15596124e61cc7fde935dr_xjey9v.png?q=80&w=1920&auto=format"
 };
