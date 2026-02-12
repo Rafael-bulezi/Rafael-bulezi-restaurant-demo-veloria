@@ -11,7 +11,8 @@ const HERO_IMAGES = {
   fineDining: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1920&auto=format&fit=crop",
   menu: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1920&auto=format&fit=crop",
   ocean: "https://images.unsplash.com/photo-1596525166299-136458561d5f?q=80&w=1920&auto=format&fit=crop",
-  heritage: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770897582/Whisk_kznwmty5mmn4y2ym1sojnwotgzm4qtl0emzw0sm_yylxhw.png?q=80&w=1920&auto=format&fit=crop"
+  // REMOVED &fit=crop from the heritage URL to prevent server-side clipping
+  heritage: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770897582/Whisk_kznwmty5mmn4y2ym1sojnwotgzm4qtl0emzw0sm_yylxhw.png?q=80&w=1920&auto=format"
 };
 
 export const Hero: React.FC<HeroProps> = ({ onReserve, language }) => {
@@ -79,7 +80,8 @@ export const Hero: React.FC<HeroProps> = ({ onReserve, language }) => {
             key={feature.id} 
             src={HERO_IMAGES[feature.id as keyof typeof HERO_IMAGES]} 
             alt={feature.label}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${activeFeature === index ? 'opacity-100' : 'opacity-0'}`} 
+            // CHANGED object-cover to conditional object-top for the heritage image
+            className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out ${activeFeature === index ? 'opacity-100' : 'opacity-0'} ${feature.id === 'heritage' ? 'object-top' : 'object-cover'}`} 
           />
         ))}
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/90 pointer-events-none"></div>
