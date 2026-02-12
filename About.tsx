@@ -44,19 +44,19 @@ export const About: React.FC<AboutProps> = ({ language }) => {
       id: 1,
       name: "Marco Costa",
       role: language === 'en' ? "Executive Chef" : "Chef Executivo",
-      image: "https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80&w=600&auto=format&fit=crop"
+      image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770938422/head_chef_ecog0a.png?q=80&w=600&auto=format&fit=crop"
     },
     {
       id: 2,
       name: "Elena Silva",
       role: language === 'en' ? "Restaurant Director" : "Directora de Restaurante",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop"
+      image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770938420/executive_manager_zfjwzm.jpg?q=80&w=600&auto=format&fit=crop"
     },
     {
       id: 3,
       name: "Paulo Santos",
       role: language === 'en' ? "Head Sommelier" : "Sommelier Chefe",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop"
+      image: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770938419/head_sommalier_ffdvva.jpg?q=80&w=600&auto=format&fit=crop"
     }
   ];
 
@@ -76,7 +76,7 @@ export const About: React.FC<AboutProps> = ({ language }) => {
           <div className="lg:w-1/2 relative">
             <div className="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-naval-200"></div>
             <img 
-              src="https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1000&auto=format&fit=crop" 
+              src="https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770938424/veloria_outside_view_hidrdq.jpg?q=80&w=1000&auto=format&fit=crop" 
               alt="Dining Heritage" 
               className="w-full h-[600px] object-cover rounded-sm shadow-2xl relative z-10"
             />
