@@ -217,15 +217,14 @@ export const Hero: React.FC<HeroProps> = ({ onReserve, language }) => {
           <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-white/10">
             
             {features.map((feature, index) => (
-              <button 
+              <div 
                 key={feature.id}
-                className="py-8 px-4 flex flex-col items-center justify-center text-white hover:bg-white/10 transition-colors cursor-pointer group relative w-full bg-transparent border-none"
+                className="py-8 px-4 flex flex-col items-center justify-center text-white hover:bg-white/10 transition-colors cursor-pointer group relative"
                 onMouseEnter={() => {
                   setActiveFeature(index);
                   setIsPaused(true);
                 }}
                 onMouseLeave={() => setIsPaused(false)}
-                onClick={() => setActiveFeature(index)}
               >
                 {/* Active Indicator Line */}
                 <div className={`absolute top-0 left-0 w-full h-[2px] bg-white transition-all duration-500 ${activeFeature === index ? 'opacity-100' : 'opacity-0'}`}></div>
@@ -237,7 +236,7 @@ export const Hero: React.FC<HeroProps> = ({ onReserve, language }) => {
                 <span className={`text-xs md:text-sm uppercase tracking-[0.2em] font-bold transition-opacity duration-300 ${activeFeature === index ? 'text-white' : 'text-white/90'}`}>
                   {feature.label}
                 </span>
-              </button>
+              </div>
             ))}
 
           </div>
