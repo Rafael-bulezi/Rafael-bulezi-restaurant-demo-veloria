@@ -12,7 +12,7 @@ const HERO_IMAGES = {
   fineDining: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1920&auto=format&fit=crop", // Seafood Platter
   menu: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1920&auto=format&fit=crop", // Dark Restaurant Atmosphere
   ocean: "https://images.unsplash.com/photo-1596525166299-136458561d5f?q=80&w=1920&auto=format&fit=crop", // Waves/Water texture
-  heritage: "https://images.unsplash.com/photo-1550951298-5c7b95a66b6a?q=80&w=1920&auto=format&fit=crop", // Heritage Placeholder
+  heritage: "https://res.cloudinary.com/dt6kjo8yo/image/upload/v1770897582/Whisk_kznwmty5mmn4y2ym1sojnwotgzm4qtl0emzw0sm_yylxhw.png?q=80&w=1920&auto=format&fit=crop" real heritage image
 };
 
 export const Hero: React.FC<HeroProps> = ({ onReserve, language }) => {
